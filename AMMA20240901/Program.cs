@@ -125,8 +125,8 @@ if (app.Environment.IsDevelopment())
 
 // Agregar los endpoints de la aplicación
 app.AddAccountEndpoints();
-app.AddProtectedEndpoints();
-app.AddTestEndpoints();
+app.AddCategoriaProductoEndpoints();
+app.AddBodegaEndpoints();
 
 // Configurar redirección HTTPS
 app.UseHttpsRedirection();
